@@ -1,0 +1,11 @@
+{
+  "agent_name": "EDQ Knowledge Agent",
+  "agent_type": "json",
+  "accessor": "json",
+  "has_module_outputs": false,
+  "schema": {
+    "answer": "string - The detailed answer with markdown formatting",
+    "sources": "string - Relevant documentation references",
+    "related_topics": "string - Comma-separated related topics"
+  }
+}

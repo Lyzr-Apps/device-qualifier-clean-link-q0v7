@@ -1,0 +1,12 @@
+{
+  "agent_name": "Report Narrative Agent",
+  "agent_type": "json",
+  "accessor": "json",
+  "has_module_outputs": false,
+  "schema": {
+    "executive_summary": "string - Executive summary paragraph",
+    "detailed_narrative": "string - Detailed technical narrative",
+    "conditions": "string - Conditional pass conditions if applicable",
+    "word_count": "string - Approximate total word count"
+  }
+}

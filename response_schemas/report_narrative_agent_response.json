@@ -1,0 +1,28 @@
+{
+  "agent_name": "Report Narrative Agent",
+  "agent_id": "699a59c9e2098a3529de8229",
+  "description": "Generates professional executive summaries, qualification narratives, and device assessment paragraphs from structured test outcome inputs, formatted for direct insertion into EDQ Word reports",
+  "agent_type": "json",
+  "accessor": "result",
+  "auto_generated": true,
+  "response_schema": {
+    "executive_summary": "string",
+    "detailed_narrative": "string",
+    "conditions": "string",
+    "word_count": "string"
+  },
+  "example_response": {
+    "executive_summary": "Professional executive summary paragraph suitable for management review",
+    "detailed_narrative": "Detailed technical qualification narrative with specific test references",
+    "conditions": "Conditional pass conditions if applicable, empty string if not a conditional pass",
+    "word_count": "Approximate total word count of all generated text"
+  },
+  "has_module_outputs": true,
+  "module_outputs_example": {
+    "artifact_files": [
+      {
+        "file_url": "https://example.com/file.pdf"
+      }
+    ]
+  }
+}

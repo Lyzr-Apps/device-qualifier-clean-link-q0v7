@@ -1,0 +1,26 @@
+{
+  "agent_name": "EDQ Knowledge Agent",
+  "agent_id": "699a59b2f9f218c9deafb88e",
+  "description": "Answers technical questions about EDQ test procedures, tool configurations, security standards, Docker architecture, and troubleshooting by searching the uploaded documentation knowledge base",
+  "agent_type": "json",
+  "accessor": "result",
+  "auto_generated": true,
+  "response_schema": {
+    "answer": "string",
+    "sources": "string",
+    "related_topics": "string"
+  },
+  "example_response": {
+    "answer": "The detailed answer to the user question with markdown formatting",
+    "sources": "Relevant sections or references from the documentation",
+    "related_topics": "Comma-separated list of related topics the user might want to explore"
+  },
+  "has_module_outputs": true,
+  "module_outputs_example": {
+    "artifact_files": [
+      {
+        "file_url": "https://example.com/file.pdf"
+      }
+    ]
+  }
+}

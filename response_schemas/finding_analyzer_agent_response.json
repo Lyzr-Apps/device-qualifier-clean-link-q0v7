@@ -1,0 +1,32 @@
+{
+  "agent_name": "Finding Analyzer Agent",
+  "agent_id": "699a59b2a08d53aec7db312e",
+  "description": "Interprets raw test findings (port scan results, TLS issues, SSH vulnerabilities, BACnet findings), maps them to Electracom severity levels, and generates structured remediation recommendations with override justification templates",
+  "agent_type": "json",
+  "accessor": "result",
+  "auto_generated": true,
+  "response_schema": {
+    "severity": "string",
+    "severity_rationale": "string",
+    "remediation": "string",
+    "override_justification": "string",
+    "related_tests": "string",
+    "additional_context": "string"
+  },
+  "example_response": {
+    "severity": "Severity level: Critical, High, Medium, or Low",
+    "severity_rationale": "Brief explanation of why this severity was assigned",
+    "remediation": "Detailed remediation recommendation with actionable steps in markdown",
+    "override_justification": "Template override justification text for EDQ override forms",
+    "related_tests": "Comma-separated list of related EDQ test numbers and names",
+    "additional_context": "Any additional context, notes, or recommendations"
+  },
+  "has_module_outputs": true,
+  "module_outputs_example": {
+    "artifact_files": [
+      {
+        "file_url": "https://example.com/image.png"
+      }
+    ]
+  }
+}

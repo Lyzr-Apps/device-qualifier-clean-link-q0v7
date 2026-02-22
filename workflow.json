@@ -1,0 +1,42 @@
+{
+  "nodes": [
+    {
+      "id": "input_node",
+      "type": "Input",
+      "label": "User Query",
+      "nodeCategory": "input"
+    },
+    {
+      "id": "knowledge_agent",
+      "type": "Agent",
+      "label": "EDQ Knowledge Agent",
+      "nodeCategory": "agent"
+    },
+    {
+      "id": "finding_agent",
+      "type": "Agent",
+      "label": "Finding Analyzer Agent",
+      "nodeCategory": "agent"
+    },
+    {
+      "id": "report_agent",
+      "type": "Agent",
+      "label": "Report Narrative Agent",
+      "nodeCategory": "agent"
+    }
+  ],
+  "edges": [
+    {
+      "source": "input_node",
+      "target": "knowledge_agent"
+    },
+    {
+      "source": "input_node",
+      "target": "finding_agent"
+    },
+    {
+      "source": "input_node",
+      "target": "report_agent"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "agents": {
+    "edq_knowledge_agent": {
+      "agent_id": "699a59b2f9f218c9deafb88e",
+      "name": "EDQ Knowledge Agent",
+      "has_kb": true,
+      "rag_id": "699a5979e12ce1682031312c"
+    },
+    "finding_analyzer_agent": {
+      "agent_id": "699a59b2a08d53aec7db312e",
+      "name": "Finding Analyzer Agent",
+      "has_kb": false
+    },
+    "report_narrative_agent": {
+      "agent_id": "699a59c9e2098a3529de8229",
+      "name": "Report Narrative Agent",
+      "has_kb": false
+    }
+  }
+}

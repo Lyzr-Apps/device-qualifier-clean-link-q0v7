@@ -1,0 +1,14 @@
+{
+  "agent_name": "Finding Analyzer Agent",
+  "agent_type": "json",
+  "accessor": "json",
+  "has_module_outputs": false,
+  "schema": {
+    "severity": "string - Critical, High, Medium, or Low",
+    "severity_rationale": "string - Why this severity was assigned",
+    "remediation": "string - Detailed remediation steps in markdown",
+    "override_justification": "string - Template for EDQ override forms",
+    "related_tests": "string - Related EDQ test numbers and names",
+    "additional_context": "string - Additional notes or recommendations"
+  }
+}
